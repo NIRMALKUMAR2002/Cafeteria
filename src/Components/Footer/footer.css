@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footerimg img {
+  max-width: 100%;
+  max-height: 100vh !important;
+  position: absolute;
+}
+
+
+.footercontent {
+  position:relative;
+  margin-top: 51.5%;
+  color: black;
+}
+.footerdetails form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+.footerdetails form input {
+  margin-top: 10px;
+  width: 25rem;
+  background:#A47FDF25;
+  border: none;
+  outline: none;
+  opacity: 0.7;
+  padding:10px 10px;
+  border-radius:10px;   
+}
+.footerdetails ::placeholder{
+    color:black;
+}
+.footerdetails form textarea {
+    margin-top: 10px;
+    width: 25rem;
+    background: #A47FDF25;
+    border: none;
+    outline: none;
+    padding:10px 10px;
+    border-radius: 10PX;    
+  }
+.footerdetails form button {
+  margin-top: 10px;
+  outline: none;
+  border:none;
+  padding:5px 15px;
+  border-radius:5px;
+  background: #bf1a7f;
+  margin-bottom: 15px;
+
+
+}
+.footerdetails form a button{
+  color:white;
+}
+.footerdetails form a {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-decoration: none;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:5px 5px 5px 5px;
+  margin-right: 10rem;
+color: #fff !important;
+
+
+}
+
+

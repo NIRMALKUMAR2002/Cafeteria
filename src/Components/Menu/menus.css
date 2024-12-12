@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+@media (min-width:320px) and (max-width:420px){
+    .project .innerproject{
+        display:none;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1625px) {
+.project1   {
+    padding-top: 5%;;
+    background:rgb(85, 43, 43);
+    color:white;
+    height: 100vh;
+}
+.container svg{
+    width:35px;
+    height: 35px;
+    margin-left: 65rem;
+}
+.cartcount span{
+    margin-top:-20px;
+    margin-left:67rem;
+    position:absolute;
+    background: red;
+    color:white;
+    width:20px;
+    height: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+
+
+}
+
+.container #first {
+    border:2px solid rgb(255, 255, 255);
+    background:rgb(182, 0, 45);
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    width:62rem;
+}
+.container #first h5{
+    margin-left:30px;
+}
+.container #first #lunch{
+    margin-left:70px;
+}
+.container #first #es{
+    width:139px;
+    margin-left:80px;
+   }
+.container #second{
+    margin-top:25px;
+}
+
+.container #second #dv{
+    width:80px;
+}
+
+.container #Third {
+    margin-top:25px;
+}
+
+.container #Fourth{
+    margin-top:25px;
+}
+
+.container #Fifth{
+    margin-top:25px;
+}
+
+.container #Sixth{
+    margin-top:25px;
+}
+
+.cart{
+    margin-top:4%;
+    position: fixed;
+    top:0;
+    right:-100%;
+    overflow-x: hidden;
+    overflow-y:auto;
+    width:200px;
+    height: 100vh;
+    background:rgb(224, 120, 0);
+    padding: 20px;
+    z-index: 20px;
+    color: white;
+}
+
+.cart-active{
+    transition: 0.30s;
+    right: 0;
+    background:rgb(182, 0, 45);
+    width:16rem;
+} 
+.cart h4{
+    padding-left: 60px;
+}
+.cart-food-title{
+font-size: 20px;
+font-weight:bold;
+font-family:'Times New Roman', Times, serif;
+}
+.cart-quantity{
+    width:60px;
+}
+.cart-remove svg{
+    cursor: pointer;
+    color:black;
+    margin:-6.3rem 0 0 10rem;
+    position: absolute; 
+    width: 1.8rem;
+    height: 1.8rem;
+    color:rgb(199, 199, 199);
+}
+.cart-icon svg{
+    cursor: pointer;
+    color:black;
+    margin:-12rem 0 0 12.2rem;
+    position: absolute; 
+    width: 1.8rem;
+    height: 1.8rem;
+    color:rgb(199, 199, 199);
+}
+#btn-buy{
+    margin:1rem 0 0 0 ;
+}
+.dropdown .dropdown-menu{
+max-height: 150px;
+overflow-y:scroll;
+}
+}

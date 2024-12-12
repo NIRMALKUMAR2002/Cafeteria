@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+.entiresecondfoot{
+    display:flex;
+    flex-direction: column;
+    background:rgb(0, 0, 0);
+    color:#fff;
+  
+    
+  
+ 
+}
+.footer{
+    width:100%;
+}
+.qube img{
+    display:flex;
+    flex-direction:row;
+    margin-top: 80px;
+    align-items:center;
+}
+.qube .para1{
+    margin-top: 15px;
+    margin-left: 45px;
+    display:flex;
+    flex-direction:column;
+    
+    padding-left:10px;
+
+}
+.icons{
+    
+    display:flex;
+    flex-direction:row;
+    text-align:center;
+    justify-content:center;
+}
+
+ .menu{
+    display:flex;
+    flex-direction:column;
+    padding-top: 20px;
+  
+
+}
+.menu a{
+    text-decoration:none;
+    padding-top: 20px;
+    color:#fff;
+    justify-content:center;
+    align-items:center;
+    
+}
+.info{
+    padding-top:20px;
+}
+.para1 {
+    margin-top: 55px;
+    font-size:35px;
+    color: #fff !important;
+    
+
+}
+.para1 a {
+    color:#fff;
+    padding-left:30px;
+ 
+}
+
+.para1content h6{
+font-size:25px;
+display:flex;
+flex-direction:row;
+text-align:center;
+justify-content:center;
+
+
+}
+.mail a{
+    color:#fff;
+    text-decoration:none;
+}
+.para1 .icons{
+    color:#fff !important;
+}
+.footer hr{
+    color:#fff;
+    
+}
+.copyright{
+ 
+    text-align:center;
+    justfiy-content:center;
+    align-items:center;
+
+}
+.underline{
+    margin-top: 100px;
+    color: white !important;;
+}
+.copyright a{
+    color:white;
+    text-decoration:none;
+}
